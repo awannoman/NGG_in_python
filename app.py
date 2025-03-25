@@ -3,14 +3,12 @@ import streamlit as st
 
 # Set background color and text color using CSS
 st.markdown(
-    """
     <style>
         body {
             background-color: white;
             color: black;
         }
-    </style>
-    """,
+    </style>,
     unsafe_allow_html=True
 )
 
