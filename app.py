@@ -1,6 +1,19 @@
 import random
 import streamlit as st
 
+# Set background color and text color using CSS
+st.markdown(
+    """
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Initialize session state for storing the random number
 if 'computer_random_number' not in st.session_state:
     st.session_state.computer_random_number = random.randint(1, 10)
