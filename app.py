@@ -5,9 +5,28 @@ import streamlit as st
 st.markdown(
     """
     <style>
-        div.stApp {
-            background-color: white;
-            color: black;
+        body {
+            background-color: #f8f9fa;
+            color: #212529;
+            font-family: Arial, sans-serif;
+        }
+        .stApp {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .stButton>button {
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .stButton>button:hover {
+            background-color: #0056b3;
         }
     </style>
     """,
